@@ -82,7 +82,7 @@ df = user_input_features()
     st.write('Chance for company to not sponsor your H1B Visa for the position:', prediction_proba[0][1]*100)'''
 
 # Correct URL to the raw .pkl file on GitHub
-model_url = 'https://github.com/Akshayd-05/H1-B-Visa-Prediction/blob/main/Final_Project.pkl'
+model_url = 'https://github.com/Akshayd-05/H1-B-Visa-Prediction/raw/refs/heads/main/Final_Project.pkl'
 
 # Function to load the model from the raw URL
 def load_model(url):
